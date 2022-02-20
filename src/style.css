@@ -1,0 +1,185 @@
+body {
+  padding: none;
+  margin: none;
+  background-image: url("https://source.unsplash.com/featured/?nature, water, moutain, forest, sea");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  }
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+#weather{ 
+  display: flex;
+  flex-wrap: wrap;
+  /* float: right; */
+  color: yellowgreen;
+  font-weight: 800;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100px;
+  text-align: right;
+}
+
+#greeting{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  padding: 10px 10px;
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  background-blend-mode: color;
+  background-color: transparent(50);
+}
+
+#logIn{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+
+#logIn p{
+  padding: 10px 10px;
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  background-blend-mode: color;
+}
+
+#logIn input{
+  margin-top: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid black;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#logIn input:focus{
+  outline: none;
+  background-color: black;
+  background-blend-mode: color;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#logIn input[type=submit]{
+  margin-top: 30px;
+  padding: 4px 10px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+#clock{
+  color:white;
+  font-size: 100px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 10px;
+  background-color: black;
+  width: 550px;
+}
+
+#toDoDiv{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#toDos p{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#toDoList{
+  display: inherit;
+  
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid black;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+#toDoList:focus{
+  outline: none;
+
+  background-color: black;
+  background-blend-mode: color;
+
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#toDos input[type=submit]{
+  display: inherit;
+  border: none;
+  border-radius: 7px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px 10px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+#list{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+  width: 500px;
+  padding: 20px 0;
+  margin: 30px auto;
+  background-blend-mode: color;
+}
+
+#list li{
+  list-style-type: none;
+  font-size: 20px;
+  color: aliceblue;
+  margin: 5px 0;
+
+}
+#list button{
+  margin-left: 10px;
+  background-color: transparent;
+  border: white solid 1px;
+  border-radius: 5px;
+  color: white;
+}
+
+  
